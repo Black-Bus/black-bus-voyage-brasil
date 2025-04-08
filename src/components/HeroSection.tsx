@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className="relative h-screen flex items-center overflow-hidden bg-white">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-white/50 to-white"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('/lovable-uploads/fefb9c28-c8d3-4903-99d3-71321061e204.png')] bg-cover bg-center opacity-80"></div>
       </div>
       
       <div className="container-custom z-10">
