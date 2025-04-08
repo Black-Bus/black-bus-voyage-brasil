@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -25,9 +24,12 @@ const Navbar = () => {
       }`}
     >
       <div className="container-custom flex justify-between items-center">
-        <Link to="/" className="font-montserrat font-bold text-2xl">
-          <span className={isScrolled ? 'text-white' : 'text-black'}>BLACK</span> 
-          <span className={isScrolled ? 'text-silver-400' : 'text-silver-700'}>BUS</span>
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/images/Logo-preta-sem-fundo.png" 
+            alt="Black Bus Voyage Logo" 
+            className="h-24 md:h-32 w-auto"
+          />
         </Link>
 
         {/* Desktop Menu */}
@@ -83,7 +85,7 @@ const Navbar = () => {
           </Link>
           <Button 
             variant={isScrolled ? "outline" : "default"} 
-            className={isScrolled ? "border-white text-white hover:bg-white hover:text-black" : "bg-black text-white hover:bg-silver-900"}
+            className={isScrolled ? "border-white text-black hover:bg-white hover:text-black" : "bg-black text-white hover:bg-silver-900"}
           >
             Reservar Agora
           </Button>

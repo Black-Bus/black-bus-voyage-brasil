@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './ui/button';
 
@@ -17,7 +16,7 @@ const CtaSection = () => {
             <Button className="bg-white text-black hover:bg-silver-200 text-lg px-8 py-6">
               Reservar Minha Viagem
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6">
+            <Button variant="outline" className="border-white text-black hover:bg-white hover:text-black text-lg px-8 py-6">
               Explorar Pacotes Turísticos
             </Button>
           </div>
