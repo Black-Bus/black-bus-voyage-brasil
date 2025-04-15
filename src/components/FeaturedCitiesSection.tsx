@@ -13,31 +13,31 @@ const cities = [
   {
     id: 2,
     name: 'São Paulo',
-    image: 'https://images.unsplash.com/photo-1598800154890-0c2b3bf62fa9?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1543059080-f9b1272213a5?q=80&w=1374&auto=format&fit=crop',
     description: 'Explore a maior metrópole brasileira, com sua gastronomia e vida cultural.'
   },
   {
     id: 3,
     name: 'Salvador',
-    image: 'https://images.unsplash.com/photo-1617492692540-10553408cdf2?q=80&w=1469&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1558020344-76c5c4ecbb07?q=80&w=1469&auto=format&fit=crop',
     description: 'Descubra o berço da cultura baiana, com suas praias e centro histórico.'
   },
   {
     id: 4,
     name: 'Florianópolis',
-    image: 'https://images.unsplash.com/photo-1596457941236-c0eb846a4d1e?q=80&w=1471&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1627913363993-95768ab2b91a?q=80&w=1374&auto=format&fit=crop',
     description: 'Visite a ilha da magia, com suas 42 praias paradisíacas.'
   },
   {
     id: 5,
     name: 'Brasília',
-    image: 'https://images.unsplash.com/photo-1580902533288-d10651b4043a?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1625257362743-7e0406165fe6?q=80&w=1470&auto=format&fit=crop',
     description: 'Conheça a capital do Brasil e sua impressionante arquitetura modernista.'
   },
   {
     id: 6,
     name: 'Curitiba',
-    image: 'https://images.unsplash.com/photo-1631036023463-883eb800c63a?q=80&w=1374&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1605666807903-e2103d70e96a?q=80&w=1374&auto=format&fit=crop',
     description: 'Explore a capital paranaense, referência em planejamento urbano e sustentabilidade.'
   },
 ];

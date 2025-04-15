@@ -18,7 +18,7 @@ const offers = [
     destination: "Gramado",
     price: "R$ 329",
     discount: "15%",
-    image: "https://images.unsplash.com/photo-1630220836290-43f5d192142a?q=80&w=1374&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1603467557437-55ab23ebe811?q=80&w=1374&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const offers = [
     destination: "Florianópolis",
     price: "R$ 289",
     discount: "25%",
-    image: "https://images.unsplash.com/photo-1596457941236-c0eb846a4d1e?q=80&w=1471&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1594322312171-b0b05a5695fc?q=80&w=1471&auto=format&fit=crop"
   }
 ];
 
