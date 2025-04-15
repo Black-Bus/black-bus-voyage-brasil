@@ -3,9 +3,10 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import TicketSearchSection from '../components/TicketSearchSection';
-import BenefitsSection from '../components/BenefitsSection';
+import PremiumServicesSection from '../components/PremiumServicesSection';
+import FeaturedCitiesSection from '../components/FeaturedCitiesSection';
+import SpecialOffersSection from '../components/SpecialOffersSection';
 import PopularRoutesSection from '../components/PopularRoutesSection';
-import PackagesSection from '../components/PackagesSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import PartnersSection from '../components/PartnersSection';
 import CtaSection from '../components/CtaSection';
@@ -18,9 +19,10 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <TicketSearchSection />
-      <BenefitsSection />
+      <PremiumServicesSection />
+      <FeaturedCitiesSection />
+      <SpecialOffersSection />
       <PopularRoutesSection />
-      <PackagesSection />
       <TestimonialsSection />
       <PartnersSection />
       <CtaSection />

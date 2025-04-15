@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -20,7 +21,7 @@ const Navbar = () => {
   return (
     <nav 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black text-white py-3 shadow-lg' : 'bg-transparent text-black py-5'
+        isScrolled ? 'bg-white shadow-lg py-3' : 'bg-transparent py-5'
       }`}
     >
       <div className="container-custom flex justify-between items-center">
@@ -28,7 +29,7 @@ const Navbar = () => {
           <img 
             src="/images/Logo-preta-sem-fundo.png" 
             alt="Black Bus Voyage Logo" 
-            className="h-24 md:h-32 w-auto"
+            className="h-16 md:h-24 w-auto"
           />
         </Link>
 
@@ -37,7 +38,7 @@ const Navbar = () => {
           <Link 
             to="/" 
             className={`font-medium hover:opacity-80 transition-opacity ${
-              isScrolled ? 'text-white' : 'text-black'
+              isScrolled ? 'text-black' : 'text-white'
             }`}
           >
             Início
@@ -46,7 +47,7 @@ const Navbar = () => {
             <button 
               onClick={() => setIsPackagesOpen(!isPackagesOpen)}
               className={`flex items-center font-medium hover:opacity-80 transition-opacity ${
-                isScrolled ? 'text-white' : 'text-black'
+                isScrolled ? 'text-black' : 'text-white'
               }`}
             >
               Pacotes <ChevronDown size={16} className="ml-1" />
@@ -62,7 +63,7 @@ const Navbar = () => {
           <Link 
             to="/routes" 
             className={`font-medium hover:opacity-80 transition-opacity ${
-              isScrolled ? 'text-white' : 'text-black'
+              isScrolled ? 'text-black' : 'text-white'
             }`}
           >
             Rotas
@@ -70,7 +71,7 @@ const Navbar = () => {
           <Link 
             to="/about" 
             className={`font-medium hover:opacity-80 transition-opacity ${
-              isScrolled ? 'text-white' : 'text-black'
+              isScrolled ? 'text-black' : 'text-white'
             }`}
           >
             Sobre
@@ -78,14 +79,14 @@ const Navbar = () => {
           <Link 
             to="/contact" 
             className={`font-medium hover:opacity-80 transition-opacity ${
-              isScrolled ? 'text-white' : 'text-black'
+              isScrolled ? 'text-black' : 'text-white'
             }`}
           >
             Contato
           </Link>
           <Button 
-            variant={isScrolled ? "outline" : "default"} 
-            className={isScrolled ? "border-white text-black hover:bg-white hover:text-black" : "bg-black text-white hover:bg-silver-900"}
+            variant={isScrolled ? "default" : "outline"} 
+            className={isScrolled ? "bg-black text-white hover:bg-silver-900" : "border-white text-white hover:bg-white/20"}
           >
             Reservar Agora
           </Button>
@@ -97,9 +98,9 @@ const Navbar = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? (
-            <X size={24} className={isScrolled ? "text-white" : "text-black"} />
+            <X size={24} className={isScrolled ? "text-black" : "text-white"} />
           ) : (
-            <Menu size={24} className={isScrolled ? "text-white" : "text-black"} />
+            <Menu size={24} className={isScrolled ? "text-black" : "text-white"} />
           )}
         </button>
       </div>
